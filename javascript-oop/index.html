@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <!-- <input type="radio" name="radio" id="radio" value="hello">
+        <label for="radio">hello</label>
+        <input type="radio" name="radio" id="radio2" value="hello">
+        <label for="radio2">goodbye</label>
+        <input type="radio" name="radio" id="radio3" value="hello">
+        <label for="radio3">farewell fool</label>
+        <br>
+      <input type="text" id="text" />
+      <input type="button" value="okay" onclick="calculateTip()" /></form> -->
+      <div>
+        <span>🥺</span>
+        <button id="div" onclick="deleteMe(this)">❌ delete</button>
+      </div>
+    </form>
+
+    <script>
+      let x = document.getElementById("radio");
+      function help(e) {
+        console.log(x.checked);
+      }
+
+      function calculateTip() {
+        // let total = Number(document.getElementById('total').value);
+        let eighteen = document.getElementById("radio");
+        // let twenty = Number(document.getElementById('twenty').value);
+
+        //calculate based on tip percent
+        console.log(eighteen.checked);
+
+        let div = document.getElementById("div");
+      }
+
+      function deleteMe(t) {
+        console.log("removing element");
+        t.parentNode.remove();
+      }
+    </script>
+  </body>
+</html>
