@@ -72,6 +72,6 @@ notSure = "this is a string actually";
 
 // we also have the any type
 // this allows us to opt-out of type checking all together
-// 
+// declare is a way to denote that this function exists in our code
 declare function getValue(key: string): any;
 const str: string = getValue("myString");

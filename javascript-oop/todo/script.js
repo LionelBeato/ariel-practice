@@ -35,8 +35,4 @@ function markCompleted(newTodo) {
 
     newTodo.childNodes[0].style = "text-decoration: line-through";
 
-
-
-    // text.style.textDecoration = "linethrough";
-
 }
